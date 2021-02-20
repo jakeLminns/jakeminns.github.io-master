@@ -356,8 +356,7 @@ padding-bottom:4%;
 }
 
 #portrait {
-  background-image: url('jpg?2');
-  background-position: -7px 0px;
+  background-image: url('face.jpg');
 
   margin-top: 6px;
       margin-left: 6px;
@@ -1134,6 +1133,33 @@ float:right;
   width:30px;
 }
 
+.rg-icon  {
+
+  background-image: url('https://www.uwo.ca/web_standards/img/social/svg/icn-researchgate.svg');
+background-size: 30px 30px;
+border:none;
+border-radius: 50%;
+float:right;
+position: relative;
+
+height:30px;
+width:30px;
+}
+
+.gs-icon  {
+
+  background-image: url('https://www.uwo.ca/web_standards/img/social/svg/icn-googlescholar.svg');
+background-size: 30px 30px;
+border:none;
+border-radius: 50%;
+float:right;
+position: relative;
+
+height:30px;
+width:30px;
+}
+
+
 
 .flickr-icon  {
       background-image: url('https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Flickr-128.png');
@@ -1319,6 +1345,16 @@ color: #45C0E4;
 
 
 
+}
+
+@media (min-width: @screen-lg) {
+  .col-right {
+      float: right;
+  }
+}
+.art-header {
+  background-color: #27ae60;
+  width:358px;
 }
 
 .3dprinting-header {
